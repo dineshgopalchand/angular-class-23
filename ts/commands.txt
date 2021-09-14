@@ -1,0 +1,11 @@
+To Transpile TS -->JS
+tsc main.ts
+
+To execute JS file
+node main.js
+
+combined statement
+tsc main.ts && node main.js
+
+combined statement with target ES(es6,es2015,es2017,es2018...) type
+tsc main.ts --target es6 && node main.js
